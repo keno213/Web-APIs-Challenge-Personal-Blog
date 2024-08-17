@@ -44,7 +44,7 @@ As a marketing student, I want a personal blog so that I can showcase my thought
     - localStorage API
 
 ## Screenshots
- - ![alt text](personalblogss.gif)
+ - ![alt text](blog-image.png)
 
 ## Developer's Portfolio
 For more projects and information about the developer, please visit:
