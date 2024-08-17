@@ -1,12 +1,11 @@
 # Personal Blog Web APIs Challenge
 Module 4 Challenge
 
-
 ## User Story
 As a marketing student, I want a personal blog so that I can showcase my thoughts and experiences.
 
 ## Acceptance Criteria
-- **Given** a personal blog,
+- **Given** A personal blog,
 - **When** I load the app,
   - **Then** I am presented with the landing page containing a form with labels and inputs for username, blog title, and blog content.
 - **When** I submit the form,
