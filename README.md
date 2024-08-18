@@ -44,11 +44,11 @@ As a marketing student, I want a personal blog so that I can showcase my thought
     - localStorage API
 
 ## Screenshots
- - ![alt text](Screenshot 2024-08-18 132239)
+ - ![alt text](Screenshot 2024-08-18 132239.png)
 
 ## Developer's Portfolio
 For more projects and information about the developer, please visit:
- - https://keno213.github.io/Web-APIs-Challenge-Personal-Blog
+ - https://ken213.github.io/Web-APIs-Challenge-Personal-Blog
  - https://github.com/keno213/Web-APIs-Challenge-Personal-Blog
 
 
