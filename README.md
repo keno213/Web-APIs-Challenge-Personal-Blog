@@ -44,7 +44,7 @@ As a marketing student, I want a personal blog so that I can showcase my thought
     - localStorage API
 
 ## Screenshots
- - ![Images](assets/Images/Screenshot 2024-08-18 132239.png)
+ - ![Images](assets/Images/page.jpeg.png)
 
 ## Developer's Portfolio
 For more projects and information about the developer, please visit:
