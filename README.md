@@ -48,8 +48,8 @@ As a marketing student, I want a personal blog so that I can showcase my thought
 
 ## Developer's Portfolio
 For more projects and information about the developer, please visit:
- - https://ajfizzle.github.io/Web-APIs-Challenge-Personal-Blog
- - https://github.com/ajfizzle/Web-APIs-Challenge-Personal-Blog
+ - https://keno213.github.io/Web-APIs-Challenge-Personal-Blog
+ - https://github.com/keno213/Web-APIs-Challenge-Personal-Blog
 
 
 ## References

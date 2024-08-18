@@ -1,7 +1,7 @@
 .blog-header {
     display: flex;
-    background-color: whitesmoke;
-    border-bottom: 5px double #584f69;
+    background-color: rgba(26, 176, 36, 0.5);;
+    border-bottom: 5px double #321764;
     justify-content: space-between;
     align-items: center;
 }
@@ -13,7 +13,7 @@
 }
 
 .blog-post {
-    border: 1px solid #584f69;
+    border: 1px solid #321764;
     padding: 10px;
     margin-top: 10px;
 }
