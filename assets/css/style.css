@@ -1,7 +1,7 @@
 .header {
     display: flex;
     background-color: whitesmoke;
-    border-bottom: 5px double #584f69;
+    border-bottom: 5px double #2a164e;
     justify-content: end;
     align-items: center;
 }
@@ -18,7 +18,7 @@
 }
 
 #back-btn {
-    background-color: #584f69;
+    background-color: #2a164e;
     border: none;
     padding: 8px;
     color: whitesmoke;
@@ -37,7 +37,7 @@ body {
 }
 
 .circle {
-    background-color: #584f69;
+    background-color: #2a164e;
     width: 400px;
     height: 400px;
     border-radius: 50%;
@@ -63,7 +63,7 @@ body {
 }
 
 .right-container {
-    border-left: 5px double #584f69;
+    border-left: 5px double #2a164e;
     padding: 0 50px;
     width: 30%;
     display: flex;
@@ -77,7 +77,7 @@ body {
 }
 
 .footer {
-    border-top: 5px double #584f69;
+    border-top: 5px double #2a164e;
     margin-top: 10px;
     padding: 20px;
 }
