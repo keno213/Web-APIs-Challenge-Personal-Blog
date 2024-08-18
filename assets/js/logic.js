@@ -1,42 +1,36 @@
-const darkModeToggle = document.querySelector("#dark-mode-toggle");
-const displayImg = document.querySelector(".display-img");
-const backButton = document.getElementById("back"); // Get the back button element
+document.addEventListener("DOMContentLoaded", function () {
+  const themeToggleButton = document.getElementById("theme-toggle-btn");
+  const toggleIcon = document.getElementById("toggle-icon");
+  const currentTheme = localStorage.getItem("theme") || "light";
 
-// Function to enable dark mode
-const enableDarkMode = () => {
-    document.body.classList.add("darkMode");
-    localStorage.setItem("darkMode", "enabled");
-    displayImg.src = "/assets/Images/blog-image.png"; // Change background image to dark mode
-}
+  if (currentTheme === "dark") {
+    document.body.classList.add("dark-mode");
+    toggleIcon.textContent = "🌙";
+  } else {
+    toggleIcon.textContent = "☀️";
+  }
 
-// Function to disable dark mode
-const disableDarkMode = () => {
-    document.body.classList.remove("darkMode");
-    localStorage.setItem("darkMode", null);
-    displayImg.src = "/assets/Images/blog-image.png"; // Change background image to light mode
-}
-
-// Event listener for dark mode toggle
-darkModeToggle.addEventListener("click", () => {
-    const darkModeEnabled = localStorage.getItem("darkMode") === "enabled";
-    if (!darkModeEnabled) {
-        enableDarkMode();
-        darkModeToggle.classList.add("bxs-star");
+  themeToggleButton.addEventListener("click", function () {
+    document.body.classList.toggle("dark-mode");
+    let theme = "light";
+    if (document.body.classList.contains("dark-mode")) {
+      theme = "dark";
+      toggleIcon.textContent = "🌙";
     } else {
-        disableDarkMode();
-        darkModeToggle.classList.remove("bxs-star");
+      toggleIcon.textContent = "☀️";
     }
+    localStorage.setItem("theme", theme);
+  });
 });
 
-// Check if current page is blog.html and show the back button
-const currentPage = window.location.pathname.split("/").pop();
-if (currentPage === "blog.html") {
-    backButton.style.display = "block";
-} else {
-    backButton.style.display = "none";
+// document.getElementById("toggleMode").addEventListener("click", function () {
+//   document.body.classList.toggle("dark-mode");
+// });
+
+document.getElementById("backButton").addEventListener("click", function () {
+  window.location.href = "index.html";
+});
+
+function goToIndex() {
+  window.location.href = "index.html";
 }
-
-// Event listener for back button click
-backButton.addEventListener("click", () => {
-    window.location.href = "index.html"; // Navigate back to index.html
-});
